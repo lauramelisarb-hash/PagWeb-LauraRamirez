@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura Melisa Ramírez · Coder en Riwi</title>
+  <meta name="description" content="Portafolio de Laura Melisa Ramírez, Coder del clan Ubuntu (cohorte 8+) en Riwi. Entregables, retos y actividades del primer trayecto de formación en desarrollo de software.">
+
+  <!-- Tipografías (Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================================
+       FONDO DECORATIVO (rejilla + orbes de luz)
+       ============================================================ -->
+  <div class="bg-decor" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <span class="orb orb--violet"></span>
+    <span class="orb orb--blue"></span>
+    <span class="orb orb--cyan"></span>
+  </div>
+
+  <!-- ============================================================
+       NAVEGACIÓN
+       ============================================================ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a href="#hero" class="nav__brand">
+        <span class="nav__logo">LR</span>
+        <span class="nav__brand-text">Laura Ramírez</span>
+      </a>
+
+      <ul class="nav__list">
+        <li><a href="#hero">Inicio</a></li>
+        <li><a href="#trayecto">Trayecto</a></li>
+        <li><a href="#rueda-libre">Rueda Libre</a></li>
+        <li><a href="#ia">IA</a></li>
+        <li><a href="#algoritmia">Algoritmia</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO · PRESENTACIÓN PERSONAL
+         ============================================================ -->
+    <section id="hero" class="hero">
+      <div class="container hero__inner">
+
+        <div class="hero__content">
+          <p class="hero__eyebrow">// portafolio · primer trayecto</p>
+
+          <h1 class="hero__title">
+            Hola, soy <span class="gradient-text">Laura Melisa Ramírez</span>
+          </h1>
+
+          <p class="hero__role">Coder en formación · Desarrollo de Software</p>
+
+          <!-- Datos personales -->
+          <ul class="hero__meta">
+            <li class="chip chip--accent">Clan Ubuntu</li>
+            <li class="chip">Perfil: Coder</li>
+            <li class="chip">Cohorte 8+</li>
+          </ul>
+
+          <p class="hero__text">
+            Soy una coder en constante evolución. Cada reto en Riwi ha sido una
+            oportunidad para transformar la curiosidad en código: aprendo construyendo,
+            me equivoco, depuro y vuelvo a intentarlo. Este espacio reúne los entregables
+            y actividades con los que estoy dando mis primeros pasos firmes en el
+            desarrollo de software.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#rueda-libre">Ver mis entregables</a>
+            <!-- ⬇️ REEMPLAZA con la URL de tu perfil de GitHub -->
+            <a class="btn btn--outline" href="https://github.com/TU-USUARIO" target="_blank" rel="noopener noreferrer">
+              Mi GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Ventana tipo editor de código (elemento decorativo) -->
+        <aside class="terminal" aria-hidden="true">
+          <div class="terminal__bar">
+            <span class="dot dot--red"></span>
+            <span class="dot dot--yellow"></span>
+            <span class="dot dot--green"></span>
+            <span class="terminal__file">laura.js</span>
+          </div>
+<pre class="terminal__code"><code><span class="c-key">const</span> <span class="c-var">coder</span> = {
+  nombre:     <span class="c-str">"Laura Melisa"</span>,
+  clan:       <span class="c-str">"Ubuntu"</span>,
+  cohorte:    <span class="c-str">"8+"</span>,
+  stack:      [<span class="c-str">"HTML5"</span>, <span class="c-str">"CSS3"</span>],
+  aprendiendo: <span class="c-bool">true</span>
+};</code></pre>
+        </aside>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         INTRODUCCIÓN · MI PRIMER TRAYECTO
+         ============================================================ -->
+    <section id="trayecto" class="section">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__eyebrow">01 · Introducción</p>
+          <h2 class="section__title">Mi primer trayecto</h2>
+          <p class="section__lead">
+            Este espacio reúne los entregables, retos y actividades que desarrollé
+            durante el primer trayecto de formación como Coder en Riwi. Aquí no solo
+            se ven resultados: se ve el proceso. Cada proyecto refleja evolución,
+            práctica constante y el desarrollo de habilidades técnicas que hoy son la
+            base de mi camino como desarrolladora.
+          </p>
+        </header>
+
+        <!-- Pilares del proceso de aprendizaje -->
+        <ul class="pillars">
+          <li class="pillar">
+            <span class="pillar__icon">&lt;/&gt;</span>
+            <h3 class="pillar__title">Estructura y maquetación</h3>
+            <p class="pillar__text">
+              Construcción de interfaces semánticas con HTML5 y estilos modernos
+              con CSS3.
+            </p>
+          </li>
+
+          <li class="pillar">
+            <span class="pillar__icon">{ }</span>
+            <h3 class="pillar__title">Lógica y algoritmia</h3>
+            <p class="pillar__text">
+              Resolución de ejercicios y retos que entrenan el pensamiento
+              computacional.
+            </p>
+          </li>
+
+          <li class="pillar">
+            <span class="pillar__icon">//</span>
+            <h3 class="pillar__title">Constancia y práctica</h3>
+            <p class="pillar__text">
+              Iteración, prueba y error: la mejora continua como hábito de trabajo.
+            </p>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIÓN 1 · RUEDA LIBRE
+         ============================================================ -->
+    <section id="rueda-libre" class="section">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__eyebrow">02 · Entregables</p>
+          <h2 class="section__title">Rueda Libre</h2>
+          <p class="section__lead">
+            Dos versiones de un mismo proyecto, dos formas de maquetar. Ejercicios
+            enfocados en la composición visual, el uso de componentes y la
+            adaptabilidad de la interfaz.
+          </p>
+        </header>
+
+        <div class="cards">
+
+          <!-- Tarjeta: Rueda Libre – Bootstrap -->
+          <article class="card">
+            <div class="card__top">
+              <span class="card__tag">Bootstrap</span>
+              <span class="card__num">01</span>
+            </div>
+
+            <h3 class="card__title">Rueda Libre — Bootstrap</h3>
+
+            <p class="card__text">
+              Proyecto desarrollado con HTML, CSS y Bootstrap. Un ejercicio de
+              maquetación ágil en el que trabajé la estructura por componentes, la
+              grilla responsiva y la integración de estilos propios sobre el framework.
+            </p>
+
+            <ul class="card__stack">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Bootstrap</li>
+            </ul>
+
+            <div class="card__actions">
+              <!-- ⬇️ REEMPLAZA con la URL del proyecto desplegado -->
+              <a class="btn btn--primary btn--sm"
+                 href="https://TU-USUARIO.github.io/TU-PROYECTO-BOOTSTRAP/"
+                 target="_blank" rel="noopener noreferrer">
+                Ver proyecto
+              </a>
+
+              <!-- ⬇️ REEMPLAZA con la URL del repositorio en GitHub -->
+              <a class="btn btn--outline btn--sm"
+                 href="https://github.com/TU-USUARIO/TU-REPO-BOOTSTRAP"
+                 target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Tarjeta: Rueda Libre Nocturno – Tailwind -->
+          <article class="card">
+            <div class="card__top">
+              <span class="card__tag">Tailwind CSS</span>
+              <span class="card__num">02</span>
+            </div>
+
+            <h3 class="card__title">Rueda Libre Nocturno — Tailwind</h3>
+
+            <p class="card__text">
+              Versión nocturna del proyecto, construida con HTML, CSS y Tailwind CSS.
+              Aquí exploré las clases utilitarias, una paleta oscura y la consistencia
+              visual entre secciones.
+            </p>
+
+            <ul class="card__stack">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Tailwind CSS</li>
+            </ul>
+
+            <div class="card__actions">
+              <!-- ⬇️ REEMPLAZA con la URL del repositorio en GitHub -->
+              <a class="btn btn--outline btn--sm"
+                 href="https://github.com/TU-USUARIO/TU-REPO-TAILWIND"
+                 target="_blank" rel="noopener noreferrer">
+                Ver repositorio
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIÓN 2 · INTELIGENCIA ARTIFICIAL
+         ============================================================ -->
+    <section id="ia" class="section">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__eyebrow">03 · Sesión</p>
+          <h2 class="section__title">Inteligencia Artificial</h2>
+          <p class="section__lead">
+            Exploración del uso de herramientas de IA como apoyo al trabajo de un
+            desarrollador: investigación, redacción de código y resolución de dudas
+            técnicas.
+          </p>
+        </header>
+
+        <div class="cards cards--single">
+          <article class="card">
+            <div class="card__top">
+              <span class="card__tag">IA</span>
+              <span class="card__num">03</span>
+            </div>
+
+            <h3 class="card__title">Inteligencia Artificial (IA)</h3>
+
+            <p class="card__text">
+              En esta sesión trabajé con conceptos y actividades alrededor de la
+              inteligencia artificial aplicada al desarrollo de software: cómo formular
+              prompts claros, cómo validar las respuestas obtenidas y cómo usar la IA
+              como una herramienta de apoyo para aprender más rápido sin dejar de
+              razonar cada solución.
+            </p>
+
+            <ul class="card__stack">
+              <li>Prompts</li>
+              <li>Investigación</li>
+              <li>Buenas prácticas</li>
+            </ul>
+
+            <div class="card__actions">
+              <!-- ⬇️ REEMPLAZA con la URL del repositorio de la sesión de IA -->
+              <a class="btn btn--primary btn--sm"
+                 href="https://github.com/TU-USUARIO/TU-REPO-IA"
+                 target="_blank" rel="noopener noreferrer">
+                Ver repositorio
+              </a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIÓN 3 · ALGORITMIA
+         ============================================================ -->
+    <section id="algoritmia" class="section">
+      <div class="container">
+
+        <header class="section__header">
+          <p class="section__eyebrow">04 · Sesión</p>
+          <h2 class="section__title">Algoritmia</h2>
+          <p class="section__lead">
+            Ejercicios y retos de lógica: descomponer un problema, ordenar los pasos
+            y encontrar la solución más clara antes de escribir la primera línea.
+          </p>
+        </header>
+
+        <div class="cards cards--single">
+          <article class="card">
+            <div class="card__top">
+              <span class="card__tag">Lógica</span>
+              <span class="card__num">04</span>
+            </div>
+
+            <h3 class="card__title">Algoritmia</h3>
+
+            <p class="card__text">
+              Espacio dedicado a los ejercicios, retos y conocimientos trabajados en
+              esta sesión: variables, condicionales, ciclos, estructuras de datos
+              básicas y resolución de problemas paso a paso. Cada reto me obligó a
+              pensar antes de escribir código y a explicar mi solución con claridad.
+            </p>
+
+            <ul class="card__stack">
+              <li>Lógica</li>
+              <li>Resolución de problemas</li>
+              <li>Pensamiento computacional</li>
+            </ul>
+
+            <div class="card__actions">
+              <!-- ⬇️ REEMPLAZA con la URL del repositorio de Algoritmia -->
+              <a class="btn btn--primary btn--sm"
+                 href="https://github.com/TU-USUARIO/TU-REPO-ALGORITMIA"
+                 target="_blank" rel="noopener noreferrer">
+                Ver repositorio
+              </a>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__name">Laura Melisa Ramírez</p>
+      <p class="footer__quote">
+        “Aprender a programar es aprender a intentarlo otra vez.”
+      </p>
+      <p class="footer__meta">Clan Ubuntu · Perfil Coder · Cohorte 8+ · Riwi</p>
+      <a class="footer__top" href="#hero">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+</body>
+</html>
